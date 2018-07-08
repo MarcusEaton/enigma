@@ -209,7 +209,7 @@ func mod(d, m int) int {
 func loadSettingsFromFile() MachineState {
 
 	// Grab the settings.json file
-	raw, err := ioutil.ReadFile("settings.json")
+	raw, err := ioutil.ReadFile("examplesettings.json")
 	if err != nil {
 		fmt.Println(err.Error())
 		os.Exit(1)
