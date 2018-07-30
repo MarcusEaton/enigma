@@ -23,7 +23,7 @@ func main() {
 
 	// read in the message
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter message: ")
+	fmt.Print("Enter message (all in CAPS): ")
 	message, _ := reader.ReadString('\n')
 
 	// Encrypt the message
