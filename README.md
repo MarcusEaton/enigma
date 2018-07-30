@@ -11,7 +11,7 @@ Run the executable ($ ./enigmacli) and follow the instructions.
 
 NB. this relies on the settings.json file being valid and in the same directory as the executable. By default they're set to those used on 31st October 1944.
 
-To decrypt: set the machine back to the same state as that in which the message was encrypted (rerun the CLI). Hit the encrypt method as described above but use the cipher as the message.
+To decrypt: set the machine back to the same state as that in which the message was encrypted (rerun the CLI) and use the cipher as the message.
 
 ## Web service
 Compile enigma.go for your OS/Arch ($ go build enigmaservice.go)
