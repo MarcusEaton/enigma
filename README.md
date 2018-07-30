@@ -5,7 +5,7 @@ Written as a CLI and a web service (to make interoperability easier: next on my 
 
 # How to use it
 ## CLI
-Compile enigma.go for your OS/Arch ($ go build enigmacli.go)
+Compile enigma.go for your OS/Arch ($ go build enigmacli.go). There's an executable in the git folder compiled for MacOS.
 
 Run the executable ($ ./enigmacli) and follow the instructions.
 
