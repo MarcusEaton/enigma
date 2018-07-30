@@ -18,7 +18,7 @@ Compile enigma.go for your OS/Arch ($ go build enigmaservice.go)
 
 Run the executable ($ ./enigmaservice)
 
-Set the machine by hitting the POST "set" method (http://localhost:8080/set). The request will need to provide a setting object in the body, like the one defined in examplesettings.json
+Set the machine by hitting the POST "set" method (http://localhost:8080/set). The request will need to provide a setting object in the body, like the one defined in examplesettings.json (those used on 31st October 1944).
 
 Encrypt a message by hitting the POST "encrypt" method (http://localhost:8080/encrypt). The request should contain the message in the body ALL IN CAPS (spaces will be ignored). The encrpt method will return the cipher text.
 
