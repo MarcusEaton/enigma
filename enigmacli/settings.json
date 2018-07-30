@@ -1,0 +1,11 @@
+{
+    "Rotors":[
+        {"Number":4, "Position":21},
+        {"Number":5, "Position":15},
+        {"Number":1, "Position":16}
+    ],
+    "Reflector":"A",
+    "Plugs":[
+        "KL", "IT", "FQ", "HY", "XC", "NP", "VZ", "JB", "SE", "OG"
+    ]
+}
